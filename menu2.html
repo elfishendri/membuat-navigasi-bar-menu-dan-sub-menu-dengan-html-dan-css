@@ -1,0 +1,105 @@
+<style type="text/css">
+
+.nav {
+		list-style: none;
+		float: left;
+		text-align: center;
+	}
+	.nav li {
+		display: inline-block;
+		position: relative;
+		float: left;
+		background: #0000FF;
+	}
+	.nav li a {
+		display: inline-block;
+		width: 250px;
+		line-height: 30px;
+		text-decoration: none;
+		color: #fff;
+	}
+	.nav li li {
+		float: left;
+	}
+	.nav li li a {
+		display: block;
+	}
+	.nav li:hover {
+		background: #DC143C;
+	}
+	.nav ul {
+		position: absolute;
+		left: 0;
+		padding: 0;
+		display: none;
+	}
+	.nav li:hover ul ul {
+		display: none;
+	}
+	.nav li:hover ul ul ul {
+		display: none;
+	}
+	.nav li:hover ul {
+		display: block;
+	}
+	.nav li li:hover ul {
+		margin-top: -30px;
+		margin-left: 250px;
+		display: block;
+	}
+	.nav li li li:hover ul {
+		margin-top: -30px;
+		margin-left: 250px;
+		display: block;
+	}
+ 
+
+</style>
+
+
+
+
+<div class="menu">
+	<ul class="nav">
+		<li><a href="">Menu Pertama</a></li>
+		<li><a href="">Menu Kedua</a>
+			<ul>
+				<li><a href="">Contoh Sub Menu 1</a></li>
+				<li><a href="">Contoh Sub Menu 2</a></li>
+				<li><a href="">Contoh Sub Menu 3</a></li>
+			</ul>
+		</li>
+		<li><a href="">Menu Ketiga</a>
+			<ul>
+				<li><a href="">Contoh Sub Menu 1</a></li>
+				<li><a href="">Contoh Sub Menu 2</a></li>
+				<li><a href="">Contoh Sub Menu 3</a>
+					<ul>
+						<li><a href="">Contoh Sub Sub Menu 1</a></li>
+						<li><a href="">Contoh Sub Sub Menu 2</a></li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<li><a href="">Menu Keempat</a>
+			<ul>
+				<li><a href="">Contoh Sub Menu 1</a></li>
+				<li><a href="">Contoh Sub Menu 2</a></li>
+				<li><a href="">Contoh Sub Menu 3</a></li>
+				<li><a href="">Contoh Sub Menu 4</a>
+					<ul>
+						<li><a href="">Contoh Sub Sub Menu 3</a></li>
+						<li><a href="">Contoh Sub Sub Menu 3</a></li>
+						<li><a href="">Contoh Sub Sub Menu 3</a>
+							<ul>
+								<li><a href="">Contoh Sub Sub Sub Menu 1</a></li>
+								<li><a href="">Contoh Sub Sub Sub Menu 2</a></li>
+								<li><a href="">Contoh Sub Sub Sub Menu 3</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</div>
